@@ -5,18 +5,18 @@
 #                                                     +:+ +:+         +:+      #
 #    By: fzayani <fzayani@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/03/18 11:33:39 by fzayani           #+#    #+#              #
-#    Updated: 2025/03/18 14:23:08 by fzayani          ###   ########.fr        #
+#    Created: 2025/03/18 14:22:43 by fzayani           #+#    #+#              #
+#    Updated: 2025/03/18 14:33:28 by fzayani          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Whatever
+NAME = Iter
 
 CC = c++
 
 CFLAG = -Wall -Wextra -Wextra -std=c++98
 
-SRC = main.cpp Whatever.cpp
+SRC = main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
